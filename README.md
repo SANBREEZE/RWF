@@ -1,7 +1,6 @@
-SANBREEZE Responsive Web JavaScript
+SANBREEZE
+<h4>&raquo;Responsive Web JavaScript&laquo;</h4>
 ====
 
-SB Responsive Web JavaScript
 
-
-The SB Responsive Web framework implements the repsonsive web-layout to any website.
+The SANBREEZE Responsive Web JavaScript framework implements the repsonsive web-layout to any website.
