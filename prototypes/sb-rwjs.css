@@ -1,0 +1,22 @@
+body{
+  position:fixed;
+  left:0;
+  top:0;
+  right:0;
+  bottom:0;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  -webkit-user-modify:read-only;
+  -o-user-modify:read-only;
+  -ms-user-modify:read-only;
+  -moz-user-modify:read-only;
+  -khtml-user-modify:read-only;
+  user-modify:read-only;
+  -webkit-user-select:none;
+  -o-user-select:none;
+  -ms-user-select:none;
+  -moz-user-select:none;
+  -khtml-user-select:none;
+  user-select:none;
+}
