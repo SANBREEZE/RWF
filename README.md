@@ -11,5 +11,5 @@ Requirements  :
 
 Usage:<br />
 <code>
-    $().SB_Site().setup();
+    $().SB_RWJS().setup();
 </code>
