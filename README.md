@@ -48,3 +48,6 @@ $().SB_RWJS().setup({
 });
 ```
 
+--
+
+#### Setup Options:
