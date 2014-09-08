@@ -21,7 +21,7 @@ This framework contains 3 JavaScript files and 2 CSS files, described as followi
 
 #### Requirements  :
   jQuery 1.11.0 or higher (except 2.x or higher)
-
+  
 --
 
 #### Usage:
