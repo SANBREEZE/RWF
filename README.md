@@ -1,7 +1,7 @@
 SANBREEZE
-#### Responsive Web JavaScript (ALPHA)
+#### Responsive Web Framework (ALPHA)
 
-The SANBREEZE Responsive Web JavaScript framework implements the repsonsive web-layout to any website.
+The SANBREEZE Responsive Web Framework implements the repsonsive web-layout to any website.
 
 This framework contains 3 JavaScript files and 2 CSS files, described as following:
 
