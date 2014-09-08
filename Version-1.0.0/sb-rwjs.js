@@ -49,7 +49,7 @@
 		body:"body"
 	},opt;
 
-	var SB_Site=function(){
+	var SB_RWJS=function(){
 		var v=["1.11.0","1.11.1"];
 		if(v.indexOf($.fn.jquery)==-1){
 			o="jQuery between version "+v[0]+" - "+v[v.length-1]+" is required!";
@@ -66,4 +66,4 @@
 			opt=$.extend(defs,o);
 		}
 	}
-}})(jQuery,'SB_Site');
+}})(jQuery,'SB_RWJS');
