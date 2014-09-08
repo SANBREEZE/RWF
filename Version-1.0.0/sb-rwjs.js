@@ -6,7 +6,7 @@
  *
  *
  * Documentation:
- *	Please visit http://www.sanbreeze.com/rwjs/ for more information
+ *	Please visit https://github.com/SANBREEZE/RWJS/ for more information
  *	about to integrate this framework to your site and for downloading
  *	this framework.
  *
