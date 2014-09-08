@@ -1,7 +1,7 @@
 /*
  * Framework	: SANBREEZE Resposive Web JS
- * Version		: 1.0.0
- * Filename		: sb-rwjs.js
+ * Version	: 1.0.0
+ * Filename	: sb-rwjs.js
  * Copyright    : © 2014, Mario Briesemeister
  *
  *
@@ -15,11 +15,11 @@
  *	jQuery 1.11.x or higher
  *
  *
- * Notes		:
+ * Notes	:
  *	Do not use jQuery 2.x - we have not test this framework version.
  *
  *
- * Rights		:
+ * Rights	:
  *	Permission to use, copy, modify, and distribute of this software and
  *	its documentation for any purposes is prohibited and will be prosecuted.
  *	For all rights of any other software we use, the intellectual property
