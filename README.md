@@ -16,7 +16,6 @@ This framework contains 4 JavaScript files and 3 CSS files, described as followi
 <li>sb-rwjs-min.css - Deployment Version</li>
 </ul>
 
-If your web-server has gzip enable you can also use our gzip libraries, you can find in the gzip folder.
 
 --
 
