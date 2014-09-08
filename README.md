@@ -1,5 +1,4 @@
-SANBREEZE
-<h4>&raquo;Responsive Web JavaScript&laquo;</h4>
+SANBREEZE<h4>&raquo;Responsive Web JavaScript&laquo;</h4>
 ====
 
 
