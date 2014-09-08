@@ -1,4 +1,4 @@
-Responsive Web JavaScript
+SANBREEZE Responsive Web JavaScript
 ====
 
-Responsive Web JavaScript
+SB Responsive Web JavaScript
