@@ -34,6 +34,18 @@ $().SB_RWJS().setup();
 ###### Optional Usage:
 ```javascript
 $().SB_RWJS().setup({
+  min-icon-size :32,              // Icon Min-Size in PX (Default: 32px)
+  max-icon-size :64,              // Icon Max-Size in PX (Default: 64px)
+  tabs  : {                       // Defines a Tab-Bar (Default None)
+    tab : {
+      icon  : "PathToYourIcon",   // Icon for Tab1
+      title : "Tab Title"         // Title for Tab1
+    },
+    tab : {
+      icon  : "PathToYourIcon",   // Icon for Tab2
+      title : "Tab Title"         // Title for Tab2
+    }
+  }
 });
 ```
 
