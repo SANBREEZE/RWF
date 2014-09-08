@@ -7,7 +7,5 @@ The SANBREEZE Responsive Web JavaScript framework implements the repsonsive web-
 
 Usage:
 <code>
-<script>
   $().SB_Site().setup();
-</script>
 </code>
