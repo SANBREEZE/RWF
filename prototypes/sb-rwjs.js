@@ -57,7 +57,15 @@
 			document.write(o);
 			return false;
 		}else{
-			$.fn.contextPopup=function(){this.bind('contextmenu',function(e){return false;});return this;};$(function(){$(opt.body).contextPopup();});
+			$.fn.contextPopup=function(){
+				this.bind('contextmenu',function(e){
+					return false;
+				});
+				return this;
+			};
+			$(function(){
+				$(opt.body).contextPopup();
+			});
 		}
 	}();
 
