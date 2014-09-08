@@ -18,7 +18,7 @@ This framework contains 3 JavaScript files and 2 CSS files, described as followi
 
 -
 If your web-server has gzip enable you can also use our gzip libraries, you can find in the gzip folder.
---
+-
 
 #### Requirements  :
   jQuery 1.11.0 or higher (except 2.x or higher)
