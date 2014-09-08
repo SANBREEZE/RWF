@@ -1,7 +1,7 @@
 /*
  * Framework	: SANBREEZE Resposive Web JS
  * Version	: 1.0.0
- * Filename	: sb-rwjs.js
+ * Filename	: sb-rwjs-min.js
  * Copyright    : © 2014, Mario Briesemeister
  *
  *
