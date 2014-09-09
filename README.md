@@ -1,5 +1,5 @@
 SANBREEZE
-#### Responsive Web Framework (ALPHA)
+#### Responsive Web Framework - 1.0.0 ALPHA
 
 The SANBREEZE Responsive Web Framework implements the repsonsive web-layout to any website.
 
