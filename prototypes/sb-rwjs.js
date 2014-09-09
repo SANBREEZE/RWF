@@ -59,7 +59,7 @@
 				return false;
 			} else {
 				$.fn.contextPopup = function() {
-					this.bind('contextmenu', function(e) {
+					this.bind("contextmenu", function(e) {
 						return false;
 					});
 					return this;
@@ -76,4 +76,4 @@
 			}
 		}
 	}
-})(jQuery, 'SB_RWJS');
+})(jQuery, "SB_RWJS");
