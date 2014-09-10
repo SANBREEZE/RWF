@@ -27,12 +27,12 @@ This framework contains 3 JavaScript files and 2 CSS files, described as followi
 #### Usage:
 ###### Standard Usage:
 ``` javascript
-$().SB_RWJS().setup();
+$.sb_resposive();
 ```
 
 ###### Optional Usage:
 ```javascript
-$().SB_RWJS().setup({
+$.sb_resposive({
   min-icon-size :32,              // Icon Min-Size in PX  (Default: 32px)
   max-icon-size :64,              // Icon Max-Size in PX  (Default: 64px)
   tabs  : {                       // Defines a Tab-Bar    (Default: None)
