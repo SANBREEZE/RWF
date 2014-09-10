@@ -44,36 +44,42 @@
  *
 */
 
-(function($, fw){
-	$.fn[fw] = function(fn) {
-		var defs = {
-			body : "body"
-		},opt;
+(function($){
+	var defs = {
+		iconsize : "12px"
+	},
+	opt,
+	body = "body",
+	fw = "sb_resposive";
 
-		var SB_RWJS = function() {
-			var v = ["1.11.0", "1.11.1"];
-			if (v.indexOf($.fn.jquery) == -1) {
-				o = "jQuery between version " + v[0] + " - " + v[v.length-1] + " is required!";
-				console.log(o);
-				document.write(o);
-				return false;
-			} else {
-				$.fn.contextPopup = function() {
-					this.bind("contextmenu", function(e) {
-						return false;
-					});
-					return this;
-				};
-				$(function() {
-					$(opt.body).contextPopup();
-				});
-			}
-		}();
 
-		return {
-			setup : function(o) {
-				opt = $.extend(defs, o);
-			}
+	function jVC () {
+		var v = ["1.11.0", "1.11.1"];
+		if (v.indexOf($.fn.jquery) == -1) {
+			err = "jQuery between version " + v[0] + " - " + v[v.length-1] + " is required!";
+			console.log(err);
+			document.write(err);
+			return false;
+		} else {
+			return true;
 		}
 	}
-})(jQuery, "SB_RWJS");
+
+
+	if (jVC()){
+
+		if ($[fw]){
+			return;
+		}
+
+		publicMethod = $.fn[fw] = $[fw] = function (o) {
+			opt = $.extend(defs, o);
+			return this;
+		};
+
+		publicMethod.close = function () {
+			alert(opt.iconsize);
+		}
+	}
+
+}(jQuery));
