@@ -7,7 +7,7 @@ This framework contains JavaScript, CSS and CSS themes files, described as follo
 
 |JavaScript: |A|B|
 |--|--|--
-| | sb-rwf.js | Development Version
+| A | sb-rwf.js | Development Version
 
 
 
