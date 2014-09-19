@@ -9,14 +9,23 @@ This framework contains JavaScript, CSS and CSS themes files, described as follo
 	<tr>
 		<td>JavaScript:</td>
 		<td></td>
+		<td></td>
 	</tr>
 	<tr>
+		<td></td>
 		<td>sb-rwf.js</td>
 		<td>Development Version</td>
 	</tr>
-	<thead></thead>
-<tr><td>CSS:</td><td></td></tr>
-<tr><td>sb-rwf.css</td><td>Development Version</td></tr>
+	<tr>
+		<td>CSS:</td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>sb-rwf.css</td>
+		<td>Development Version</td>
+	</tr>
 </table>
 
 
