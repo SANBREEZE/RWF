@@ -14,10 +14,7 @@ This framework contains JavaScript, CSS and CSS themes files, described as follo
 	</tr>
 </table>
 <table>
-	<thead>
-		<td>CSS:</td>
-		<td></td>
-		<td></td>
+	<thead>CSS:
 	</thead>
 	<tr>
 		<td></td>
