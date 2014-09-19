@@ -33,12 +33,12 @@ This framework contains JavaScript, CSS and CSS themes files, described as follo
 #### Usage:
 ###### Standard Usage:
 ``` javascript
-$.sb_resposive();
+$.rwf();
 ```
 
 ###### Optional Usage:
 ```javascript
-$.sb_resposive({
+$.rwf({
   min-icon-size :32,              // Icon Min-Size in PX  (Default: 32px)
   max-icon-size :64,              // Icon Max-Size in PX  (Default: 64px)
   tabs  : {                       // Defines a Tab-Bar    (Default: None)
