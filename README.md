@@ -64,3 +64,7 @@ $.rwf({
 --
 
 #### Setup Options:
+
+|Options:		|		|			| 
+|-----------------------|---------------|-----------------------|-
+|theme			|string		|path to css theme	| 
