@@ -68,6 +68,8 @@ $.rwf({
 |-----------------------|---------------|---------------------------------------|---------------|
 |theme			|string		|path to css theme			|dark		|
 |menu			|array		|					|none		|
-|menu : title		|string		|title of menu entire			|none		|
+|menu : title		|string		|title of menu entry			|none		|
 |menu : href		|string		|path to URI or anker to a class or id	|none		|
 |menu : submenu		|array		|					|none		|
+|menu : submenu : title	|string		|title of submenu entry			|none		|
+|menu : submenu : href	|string		|path to URI or anker to a class or id	|none		|
