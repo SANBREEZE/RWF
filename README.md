@@ -32,7 +32,7 @@ Please see the demo files for right usage...
 $.rwf();
 ```
 
-###### Optional Usage:
+###### Optional Usage (Example):
 ```javascript
 $.rwf({
 	theme : "URI or path to theme file",
