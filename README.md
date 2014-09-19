@@ -3,19 +3,23 @@ SANBREEZE
 
 The SANBREEZE Responsive Web Framework implements the repsonsive web-layout to any website.
 
-This framework contains 3 JavaScript files and 2 CSS files, described as following:
+This framework contains JavaScript, CSS and CSS themes files, described as following:
 
 <ul>JavaScript:
-<li>sb-rwjs.js      - Development Version</li>
-<li>sb-rwjs-min.js  - Deployment Version</li>
-<li>sb-rwjs-pck.js  - Packed Deployment Version</li>
+<li>sb-rwf.js      - Development Version</li>
+<li>sb-rwf-min.js  - Deployment Version</li>
+<li>sb-rwf-pck.js  - Packed Deployment Version</li>
 </ul>
 
 <ul>CSS:
-<li>sb-rwjs.css     - Development Version</li>
-<li>sb-rwjs-min.css - Deployment Version</li>
+<li>sb-rwf.css     - Development Version</li>
+<li>sb-rwf-min.css - Deployment Version</li>
 </ul>
 
+<ul>CSS Themes (optional):
+<li>rwf_dark.css    - Development Version</li>
+<li>rwf_white.css   - Deployment Version</li>
+</ul>
 
 --
 
