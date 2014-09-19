@@ -5,10 +5,9 @@ The SANBREEZE Responsive Web Framework implements the repsonsive web-layout to a
 
 This framework contains JavaScript, CSS and CSS themes files, described as following:
 
-<ul>JavaScript:
------
-<li>sb-rwf.js	|	Development Version</li>
-</ul>
+<table>
+<tr><td>JavaScript:</td></tr>
+<tr><td>sb-rwf.js</td><td>Development Version</td></tr>
 
 <ul>CSS:
 <li>sb-rwf.css        - Development Version</li>
