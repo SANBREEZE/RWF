@@ -26,6 +26,8 @@ This framework contains JavaScript, CSS and CSS themes files, described as follo
 --
 
 #### Usage:
+Please see the demo files for right usage...
+
 ###### Standard Usage:
 ``` javascript
 $.rwf();
