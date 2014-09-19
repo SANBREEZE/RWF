@@ -5,53 +5,17 @@ The SANBREEZE Responsive Web Framework implements the repsonsive web-layout to a
 
 This framework contains JavaScript, CSS and CSS themes files, described as following:
 
-|Content:	|		|			| 
-|---------------|---------------|-----------------------|-
-|JavaScript	|sb-rwf.js	|Development Version	| 
-|		|		|			|-
-|CSS 		|		|			| 
-|---------------|---------------|-----------------------|-
+|Content:		|		|			| 
+|-----------------------|---------------|-----------------------|-
+|JavaScript		|sb-rwf.js	|Development Version	| 
+|			|		|			|-
+|CSS 			|		|			| 
+|			|sb-rwf.css	|Development Version	|-
+|			|		|			|-
+|CSS Themes (optional)	|		|			|-
+|			|rwf_dark.css	|Development Version	|-
+|			|rwf_white.css	|Development Version	|-
 
-
-
-
-<table>
-	<tr>
-		<td>JavaScript:</td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td></td>
-		<td>sb-rwf.js</td>
-		<td>Development Version</td>
-	</tr>
-	<tr>
-		<td>CSS:</td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td></td>
-		<td>sb-rwf.css</td>
-		<td>Development Version</td>
-	</tr>
-	<tr>
-		<td>CSS Themes (optional):</td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td></td>
-		<td>rwf_dark.css</td>
-		<td>Development Version</td>
-	</tr>
-	<tr>
-		<td></td>
-		<td>rwf_white.css</td>
-		<td>Development Version</td>
-	</tr>
-</table>
 
 --
 
