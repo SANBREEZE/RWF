@@ -64,8 +64,10 @@ $.rwf({
 
 #### Setup Options:
 
-|Option			|Type		|Description		|Default	|
-|-----------------------|---------------|-----------------------|---------------|
-|theme			|string		|path to css theme	|dark		|
-|menu			|array		|			|none		|
-|menu : submenu		|array		|			|none		|
+|Option			|Type		|Description				|Default	|
+|-----------------------|---------------|---------------------------------------|---------------|
+|theme			|string		|path to css theme			|dark		|
+|menu			|array		|					|none		|
+|menu : title		|string		|title of menu entire			|none		|
+|menu : href		|string		|path to URI or anker to a class or id	|none		|
+|menu : submenu		|array		|					|none		|
