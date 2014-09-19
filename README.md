@@ -68,4 +68,4 @@ $.rwf({
 |-----------------------|---------------|-----------------------|---------------|
 |theme			|string		|path to css theme	|dark		|
 |menu			|array		|			|none		|
-
+|menu : submenu		|array		|			|none		|
