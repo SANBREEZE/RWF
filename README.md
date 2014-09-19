@@ -8,8 +8,6 @@ This framework contains JavaScript, CSS and CSS themes files, described as follo
 <table>
 	<th>
 		<td>JavaScript:</td>
-		<td></td>
-		<td></td>
 	</th>
 	<tr>
 		<td></td>
