@@ -33,33 +33,31 @@ $.rwf();
 
 ###### Optional Usage:
 ```javascript
-				$.rwf({
-					theme : "URI or path to theme file",
-					menu : [
-						{
-							title : "Menu Title 1",
-							href : "URI or path"
-						},
-						{
-							title : "Menu Title 2",
-							href : "URI or path"
-						},
-						{
-							title : "Menu Title 3",
-							href : "URI or path",
-							submenu : [
-								{
-									title : "Submenu Title 1",
-									href : "URI or path"
-								},
-								{
-									title : "<i>infinity</i> <sup>AD+</sup>",
-									href : "URI or path"
-								},
-							]
-						},
-					]
-				});
+$.rwf({
+	theme : "URI or path to theme file",
+	menu : [{
+		title : "Menu Title 1",
+		href : "URI or path"
+	},
+	{
+		title : "Menu Title 2",
+		href : "URI or path"
+	},
+	{
+		title : "Menu Title 3",
+		href : "URI or path",
+		submenu : [
+			{
+				title : "Submenu Title 1",
+				href : "URI or path"
+			},
+			{
+				title : "Submenu Title 2",
+				href : "URI or path"
+			},
+		]
+	}]
+});
 ```
 
 --
