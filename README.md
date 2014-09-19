@@ -1,7 +1,7 @@
 SANBREEZE
 #### Responsive Web Framework - 1.0.0 ALPHA
 
-The SANBREEZE Responsive Web Framework implements the repsonsive web-layout to any website.
+The SANBREEZE Responsive Web Framework (RWF) implements repsonsive web-layout to any website - browser and device independent.
 
 This framework contains JavaScript, CSS and CSS themes files, described as following:
 
