@@ -91,16 +91,15 @@
 //
 //////////////////// */
 
-.rwf-imageslider {
-	border-bottom:1px solid rgba(0,0,0,0.1);
+.rwf-imageslider  {
+	box-shadow:0 0 4px rgba(0,0,0,0.8);
 }
 
-.rwf-imageslider .paginatoricon {
-	background-color:rgba(0,0,0,0.4);
-	border:2px solid rgba(250,250,250,0.5);
+.rwf-imageslider .paginator .paginatoricon {
+	background-color:rgba(255,255,255,0.4);
+	border:2px solid rgba(255,255,255,0.8);
 }
 
-.rwf-imageslider .paginatoricon.selected {
+.rwf-imageslider .paginator .paginatoricon.selected {
 	background-color:rgba(0,180,255,0.8);
-	border-color:rgba(250,250,250,0.8);
 }
