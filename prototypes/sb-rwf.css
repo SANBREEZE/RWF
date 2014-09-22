@@ -116,7 +116,7 @@ body {
 	padding:0;
 	min-width:320px;
 	overflow:hidden;
-	
+
 	font:15px/21px 'CC', sans-serif;
 
 	-webkit-user-modify:read-only;
@@ -206,6 +206,7 @@ sup {
 	margin:0;
 	padding:0;
 	z-index:0;
+	/*opacity:0.0;*/
 	overflow-y:scroll;
 	-webkit-overflow-scrolling:touch;
 }
@@ -232,6 +233,9 @@ sup {
 	max-width:952px;
 }
 
+.rwf-space {
+	margin:20px;
+}
 
 
 
@@ -320,8 +324,15 @@ sup {
 	bottom:0;
 	width:100%;
 	height:100%;
+	min-height:480px;
 	margin:0;
 	padding:0;
+	border-radius:2px;
+	overflow:hidden;
+}
+
+.rwf-imageslider.fullsite {
+	border-radius:0px;
 }
 
 .rwf-imageslider .slider {
@@ -331,24 +342,6 @@ sup {
 	width:100%;
 	height:100%;
 	overflow:hidden;
-}
-
-.rwf-imageslider .paginator {
-	position:absolute;
-	left:10px;
-	right:10px;
-	bottom:10px;
-	line-height:0px;
-	text-align:center;
-}
-
-.rwf-imageslider .paginatoricon {
-	width:16px;
-	height:16px;
-	margin:0 5px;
-	border-radius: 50%;
-	box-sizing:border-box;
-	display:inline-block;
 }
 
 .rwf-imageslider .slider .item {
@@ -365,6 +358,24 @@ sup {
 	border:none;
 	outline:none;
 	float:left;
+}
+
+.rwf-imageslider .paginator {
+	position:absolute;
+	left:20px;
+	right:20px;
+	bottom:20px;
+	line-height:0px;
+	text-align:center;
+}
+
+.rwf-imageslider .paginator .paginatoricon {
+	width:16px;
+	height:16px;
+	margin:0 5px;
+	border-radius: 50%;
+	box-sizing:border-box;
+	display:inline-block;
 }
 
 
@@ -397,13 +408,14 @@ sup {
 
 
 
+
 /* ////////////////////
 //
 // Transitions
 //
 //////////////////// */
 
-.rwf-submenu, li {
+.rwf-submenu, li, .rwf-imageslider .paginator .paginatoricon  {
 	-webkit-transition:all 0.25s ease-in-out;
 	-ms-transition:all 0.25s ease-in-out;
 	-moz-transition:all 0.25s ease-in-out;
