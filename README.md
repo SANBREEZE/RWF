@@ -66,7 +66,7 @@ $.rwf({
 
 --
 
-#### Setup Options:
+#### Setup Options (JavaScript):
 
 |Option			|Type		|Description				|Default	|
 |-----------------------|---------------|---------------------------------------|---------------|
