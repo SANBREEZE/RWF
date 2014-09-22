@@ -7,7 +7,7 @@ The SANBREEZE Responsive Web Framework (RWF) implements repsonsive web-layout to
 
 --
 
-This framework contains JavaScript, CSS and CSS themes files, described as following:
+This framework contains JavaScript, CSS, CSS themes files and CSS Web-Font resources, described as following:
 
 |Content:		|		|			|
 |-----------------------|---------------|-----------------------|
