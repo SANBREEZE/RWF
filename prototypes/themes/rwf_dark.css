@@ -1,7 +1,7 @@
 /*
  * Framework	: SANBREEZE Resposive Web
  * Version	: 1.0.0
- * Filename	: rwf_dark.css
+ * Filename	: theme_dark.css
  * Copyright    : 2014, Mario Briesemeister
  *
  *
@@ -91,16 +91,15 @@
 //
 //////////////////// */
 
-.rwf-imageslider {
-	border-bottom:1px solid rgba(0,0,0,0.5);
+.rwf-imageslider  {
+	box-shadow:0 0 4px rgba(0,0,0,0.8);
 }
 
-.rwf-imageslider .paginatoricon {
+.rwf-imageslider .paginator .paginatoricon {
 	background-color:rgba(255,255,255,0.4);
-	border:2px solid rgba(40,40,48,0.5);
+	border:2px solid rgba(255,255,255,0.8);
 }
 
-.rwf-imageslider .paginatoricon.selected {
+.rwf-imageslider .paginator .paginatoricon.selected {
 	background-color:rgba(0,180,255,0.8);
-	border-color:rgba(40,40,48,0.8);
 }
