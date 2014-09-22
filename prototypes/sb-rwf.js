@@ -109,7 +109,7 @@ function _loading () {
 		e	: function (a) {
 			return fw+"-"+a;
 		},
-		jQV : function () {
+		jQV 	: function () {
 			var v = ["1.11.0", "1.11.1"];
 			if (v.indexOf($.fn.jquery) == -1) {
 				e = "jQuery between version " + v[0] + " - " + v[v.length-1] + " is required!";
@@ -120,7 +120,7 @@ function _loading () {
 				return true;
 			}
 		},
-		noBounce : function () {
+		noBounce: function () {
 			var ts, tm, el = "#"+rwf.e(content);
 			$(body).on(t_event[0] + ' ' + t_event[1] + ' ' + t_event[2], function (e) {
 				e.stopImmediatePropagation();
