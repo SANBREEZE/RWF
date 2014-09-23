@@ -1,7 +1,7 @@
 /*
  * Framework	: SANBREEZE Resposive Web
- * Version	: 1.0.0
- * Filename	: sb-rwf.js
+ * Version		: 1.0.0
+ * Filename		: sb-rwf.js
  * Copyright    : 2014, Mario Briesemeister
  *
  *
@@ -15,11 +15,11 @@
  *	jQuery 1.11.x or higher
  *
  *
- * Notes	:
+ * Notes		:
  *	Do not use jQuery 2.x - we have not test this framework version.
  *
  *
- * Rights	:
+ * Rights		:
  *	The MIT License (MIT)
  *
  *	Copyright (c) 2014, SANBREEZE GmbH
@@ -43,6 +43,19 @@
  *	SOFTWARE.
  *
 */
+
+
+//Sprache ermitteln
+// navigator.language
+
+
+
+//$.holdReady( true );
+//$.getScript( "myplugin.js", function() {
+//$.holdReady( false );
+//});
+
+
 
 loadTimer = setInterval(_loading, 50);
 function _loading () {
@@ -85,31 +98,30 @@ function _loading () {
 	opt,
 	body		= "body",
 	ctxMenu 	= "contextmenu",
-	fw		= "rwf",
+	fw			= "rwf",
 
 	close		= "close",
 	content		= "content",
-	contentBlock 	= "contentBock"
+	contentBox	= "contentBox",
+	footer		= "footer",
 	fullsite	= "fullsite",
-	halfsite	= "halfsite",
 	header		= "header",
 	icon		= "icon",
-	imageslider 	= "imageslider"
+	imageslider = "imageslider",
 	logo		= "logo",
 	menu		= "menu",
 	noimage 	= "noimage",
-	slider		= "slider",
 	submenu		= "submenu",
 	wrapper		= "wrapper",
 
-	m_event		= ["mousemove","mousedown","mouseup"],
-	t_event		= ["touchmove","touchstart","touchend"],
+	m_event	= ["mousemove","mousedown","mouseup"],
+	t_event	= ["touchmove","touchstart","touchend"],
 
 	rwf = {
 		e	: function (a) {
 			return fw+"-"+a;
 		},
-		jQV 	: function () {
+		jQV : function () {
 			var v = ["1.11.0", "1.11.1"];
 			if (v.indexOf($.fn.jquery) == -1) {
 				e = "jQuery between version " + v[0] + " - " + v[v.length-1] + " is required!";
@@ -120,7 +132,7 @@ function _loading () {
 				return true;
 			}
 		},
-		noBounce: function () {
+		noBounce : function () {
 			var ts, tm, el = "#"+rwf.e(content);
 			$(body).on(t_event[0] + ' ' + t_event[1] + ' ' + t_event[2], function (e) {
 				e.stopImmediatePropagation();
@@ -264,6 +276,7 @@ function _loading () {
 
 	function _createContent () {
 		$("#" + rwf.e(content)).wrapInner(_cE("div", null, rwf.e(wrapper)));
+		$("#" + rwf.e(footer)).wrapInner(_cE("div", null, rwf.e(wrapper)));
 	}
 
 	function _imageSlide () {
@@ -413,3 +426,5 @@ function _loading () {
 	}
 
 }(jQuery));
+
+

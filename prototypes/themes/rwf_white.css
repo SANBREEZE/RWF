@@ -1,7 +1,7 @@
 /*
  * Framework	: SANBREEZE Resposive Web
- * Version	: 1.0.0
- * Filename	: rwf_white.css
+ * Version		: 1.0.0
+ * Filename		: rwf_white.css
  * Copyright    : 2014, Mario Briesemeister
  *
  *
@@ -15,11 +15,11 @@
  *	jQuery 1.11.x or higher
  *
  *
- * Notes	:
+ * Notes		:
  *	Do not use jQuery 2.x - we have not test this framework version.
  *
  *
- * Rights	:
+ * Rights		:
  *	The MIT License (MIT)
  *
  *	Copyright (c) 2014, SANBREEZE GmbH
@@ -49,6 +49,19 @@
 
 /* ////////////////////
 //
+// Standard Elements
+//
+//////////////////// */
+
+body {
+	color:#666;
+}
+
+
+
+
+/* ////////////////////
+//
 // Loading Element
 //
 //////////////////// */
@@ -66,7 +79,7 @@
 //
 //////////////////// */
 
-.rwf-menu, .rwf-submenu {
+.rwf-menu, .rwf-submenu, #rwf-footer {
 	color:#000;
 	background:rgba(250,250,250,0.96);
 	border-top:1px solid rgba(0,0,0,0.0);
@@ -80,6 +93,27 @@
 
 .rwf-submenu ul>li:hover {
 	color:#888;
+}
+
+#rwf-footer {
+	color:#888;
+}
+
+#rwf-footer ul>li:hover {
+	color:#000;
+}
+
+
+
+
+/* ////////////////////
+//
+// Content Box
+//
+//////////////////// */
+
+.rwf-grid img {
+	box-shadow:0 0 4px rgba(0,0,0,0.8);
 }
 
 

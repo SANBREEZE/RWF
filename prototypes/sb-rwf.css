@@ -1,7 +1,7 @@
 /*
  * Framework	: SANBREEZE Resposive Web
- * Version	: 1.0.0
- * Filename	: sb-rwf.css
+ * Version		: 1.0.0
+ * Filename		: sb-rwf.css
  * Copyright    : 2014, Mario Briesemeister
  *
  *
@@ -15,11 +15,11 @@
  *	jQuery 1.11.x or higher
  *
  *
- * Notes	:
+ * Notes		:
  *	Do not use jQuery 2.x - we have not test this framework version.
  *
  *
- * Rights	:
+ * Rights		:
  *	The MIT License (MIT)
  *
  *	Copyright (c) 2014, SANBREEZE GmbH
@@ -162,6 +162,42 @@ body {
 	-webkit-touch-callout:none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	padding:0 10px 0px 10px;
+	margin:10px 0;
+	text-indent:0;
+	line-height:125%;
+}
+
+h1 {
+	font-size: 200%;
+}
+
+h2 {
+	font-size: 175%;
+}
+
+h3 {
+	font-size: 150%;
+}
+
+h4 {
+	font-size: 125%;
+}
+
+h5 {
+	font-size: 100%;
+}
+
+h6 {
+	font-size: 80%;
+}
+
 sup {
 	margin:0;
 	padding:0;
@@ -224,6 +260,18 @@ sup {
 }
 
 #rwf-footer {
+	width:100%;
+	font-size:84%;
+}
+
+#rwf-footer ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+#rwf-footer ul>li {
+	cursor:pointer;
 }
 
 .rwf-wrapper {
@@ -234,8 +282,11 @@ sup {
 }
 
 .rwf-space {
+	width:100%;
+	height:1px;
 	margin:20px;
 }
+
 
 
 
@@ -312,6 +363,80 @@ sup {
 
 /* ////////////////////
 //
+// Content Box
+//
+//////////////////// */
+
+.rwf-contentBox {
+	width:100%;
+	margin-bottom:20px;
+	clear:both;
+	display:inline-block;
+
+	-webkit-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-khtml-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+.rwf-grid {
+	padding:10px;
+	text-align:justify;
+	display:inline-block;
+
+	-webkit-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-khtml-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+.rwf-grid h1,
+.rwf-grid h2,
+.rwf-grid h3,
+.rwf-grid h4,
+.rwf-grid h5,
+.rwf-grid h6 {
+	padding:0;
+	margin:0 0 15px 0;
+}
+
+.rwf-grid img {
+	width:100%;
+	margin:10px auto;
+	border:none;
+	outline:none;
+	border-radius:2px;
+	overflow:hidden;
+}
+
+.rwf-grid.g100 {
+	width:100%;
+}
+
+.rwf-grid.g50 {
+	width:50%;
+	float:left;
+}
+
+.rwf-grid.g33 {
+	width:33.333333%;
+	float:left;
+}
+
+.rwf-grid.g25 {
+	width:25%;
+	float:left;
+}
+
+
+
+
+/* ////////////////////
+//
 // Image Slider
 //
 //////////////////// */
@@ -335,7 +460,7 @@ sup {
 	border-radius:0px;
 }
 
-.rwf-imageslider .slider {
+.rwf-imageslider .rwf-slider {
 	position:relative;
 	top:0;
 	left:0;
@@ -344,13 +469,13 @@ sup {
 	overflow:hidden;
 }
 
-.rwf-imageslider .slider .item {
+.rwf-imageslider .rwf-slider .item {
 	width:100%;
 	height:100%;
 	float:left;
 }
 
-.rwf-imageslider .slider .item img {
+.rwf-imageslider .rwf-slider .item img {
 	width:100%;
 	height:100%;
 	background-position:center;
@@ -396,7 +521,6 @@ sup {
 .noimage {
 	background:none !important;
 }
-
 
 
 
