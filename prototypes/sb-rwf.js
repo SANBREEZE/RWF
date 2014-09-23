@@ -1,7 +1,7 @@
 /*
  * Framework	: SANBREEZE Resposive Web
- * Version		: 1.0.0
- * Filename		: sb-rwf.js
+ * Version	: 1.0.0
+ * Filename	: sb-rwf.js
  * Copyright    : 2014, Mario Briesemeister
  *
  *
@@ -15,11 +15,11 @@
  *	jQuery 1.11.x or higher
  *
  *
- * Notes		:
+ * Notes	:
  *	Do not use jQuery 2.x - we have not test this framework version.
  *
  *
- * Rights		:
+ * Rights	:
  *	The MIT License (MIT)
  *
  *	Copyright (c) 2014, SANBREEZE GmbH
@@ -88,16 +88,15 @@ function _loading () {
 	opt,
 	body		= "body",
 	ctxMenu 	= "contextmenu",
-	fw			= "rwf",
+	fw		= "rwf",
 
 	close		= "close",
 	content		= "content",
-	contentBox	= "contentBox",
 	footer		= "footer",
 	fullsite	= "fullsite",
 	header		= "header",
 	icon		= "icon",
-	imageslider = "imageslider",
+	imageslider 	= "imageslider",
 	logo		= "logo",
 	menu		= "menu",
 	noimage 	= "noimage",
@@ -108,7 +107,7 @@ function _loading () {
 	t_event	= ["touchmove","touchstart","touchend"],
 
 	rwf = {
-		e	: function (a) {
+		e : function (a) {
 			return fw+"-"+a;
 		},
 		jQV : function () {
@@ -402,16 +401,12 @@ function _loading () {
 				});
 				return this;
 			};
-			//$(function () {
-			//	$(body).contextPopup();
-			//});
+			$(function () {
+				$(body).contextPopup();
+			});
 			_init();
 			return this;
 		};
-
-		publicMethod.close = function () {
-			//alert(opt.iconsize);
-		}
 
 	}
 
