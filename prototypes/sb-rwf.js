@@ -45,16 +45,6 @@
 */
 
 
-//Sprache ermitteln
-// navigator.language
-
-
-
-//$.holdReady( true );
-//$.getScript( "myplugin.js", function() {
-//$.holdReady( false );
-//});
-
 
 
 loadTimer = setInterval(_loading, 50);
