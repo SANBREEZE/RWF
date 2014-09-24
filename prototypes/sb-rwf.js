@@ -71,7 +71,6 @@ function _loading () {
 
 (function($){
 	var defs = {
-		theme : "rwf_dark",
 		menu : [
 			{
 				title : "Menu-Title 1",
@@ -88,7 +87,7 @@ function _loading () {
 	opt,
 	body		= "body",
 	ctxMenu 	= "contextmenu",
-	fw		= "rwf",
+	fw			= "rwf",
 
 	close		= "close",
 	content		= "content",
@@ -96,7 +95,7 @@ function _loading () {
 	fullsite	= "fullsite",
 	header		= "header",
 	icon		= "icon",
-	imageslider 	= "imageslider",
+	imageslider = "imageslider",
 	logo		= "logo",
 	menu		= "menu",
 	noimage 	= "noimage",
@@ -107,7 +106,7 @@ function _loading () {
 	t_event	= ["touchmove","touchstart","touchend"],
 
 	rwf = {
-		e : function (a) {
+		e	: function (a) {
 			return fw+"-"+a;
 		},
 		jQV : function () {
@@ -121,24 +120,39 @@ function _loading () {
 				return true;
 			}
 		},
-		noBounce : function () {
-			var ts, tm, el = "#"+rwf.e(content);
-			$(body).on(t_event[0] + ' ' + t_event[1] + ' ' + t_event[2], function (e) {
-				e.stopImmediatePropagation();
-				if (e.type === t_event[1]) {
-					ts = e.originalEvent.changedTouches[0].screenY;
-				}
-				if (e.type === t_event[0]) {
-					tm = e.originalEvent.changedTouches[0].screenY;
-				}
-				if (ts < t_m && $(el).offset().top >= 0) {
-					e.preventDefault();
-				} else if (ts > tm && $(el).height() + ($(el).offset().top - $(document).height()) <= 0){
-					e.preventDefault();
+		loadTheme : function (a) {
+			var s = document.getElementsByTagName("script"),
+			b,
+			st = "themes/"+fw+"-dark",
+			tN = function (t) {
+				if (document.createStyleSheet) {
+					document.createStyleSheet(t);
 				} else {
-					e.stopImmediatePropagation();
+					$("head").append($('<link rel="stylesheet" href="'+t+'" type="text/css" />'));
 				}
-			});
+			};
+			for (var i = 0; i < s.length; i++) {
+				p = s[i].src;
+				if ( p.match(/sb-rwf.js/) ) {
+					b = p.replace(/sb-rwf.js/, st+".css");
+				}
+				if ( p.match(/sb-rwf-min.js/) ) {
+					b = p.replace(/sb-rwf-min.js/, st+"-min.css");
+				}
+				if ( p.match(/sb-rwf-pck.js/) ) {
+					b = p.replace(/sb-rwf-pck.js/, st+"-min.css");
+				}
+			}
+			if (!a) {
+				tN(b);
+			} else {
+				$.get(a)
+					.done(function() {
+						tN(a);
+					}).fail(function() {
+						tN(b);
+				});
+			}
 		}
 	};
 
@@ -212,7 +226,7 @@ function _loading () {
 			} else {
 				i.addClass(icon + " " + menu);
 			}
-			i.click(function (){
+			i.click(function (e){
 				_toggleMenu();
 			});
 			i.appendTo(w);
@@ -264,8 +278,7 @@ function _loading () {
 	}
 
 	function _createContent () {
-		$("#" + rwf.e(content)).wrapInner(_cE("div", null, rwf.e(wrapper)));
-		$("#" + rwf.e(footer)).wrapInner(_cE("div", null, rwf.e(wrapper)));
+		$("#" + rwf.e(content) + ", #"+ rwf.e(footer)).wrapInner(_cE("div", null, rwf.e(wrapper)));
 	}
 
 	function _imageSlide () {
@@ -356,31 +369,8 @@ function _loading () {
 		alert(a);
 	}
 
-	function _loadTheme (t) {
-		$.ajax({
-			type: "HEAD",
-			url: t,
-			success: function(){
-				if (document.createStyleSheet) {
-					document.createStyleSheet(t);
-				} else {
-					$("head").append($('<link rel="stylesheet" href="'+t+'" type="text/css" />'));
-				}
-			},
-			error: function(){
-				console.log("Theme not found: Fallback to default.")
-				if (document.createStyleSheet) {
-					document.createStyleSheet(t);
-				} else {
-					$("head").append($('<link rel="stylesheet" href="prototypes/themes/rwf_dark.css" type="text/css" />'));
-				}
-			}
-		});
-	}
-
 	function _init () {
-		_loadTheme(opt.theme);
-		rwf.noBounce();
+		rwf.loadTheme(opt.theme);
 		_createHeader();
 		_createContent();
 		_imageSlide();
