@@ -9,16 +9,18 @@ The SANBREEZE Responsive Web Framework (RWF) implements repsonsive web-layout to
 
 This framework contains JavaScript, CSS, CSS themes files and CSS Web-Font resources, described as following:
 
-|Content:		|		|			|
-|-----------------------|---------------|-----------------------|
-|JavaScript		|sb-rwf.js	|Development Version	|
-|			|		|			|
-|CSS 			|		|			|
-|			|sb-rwf.css	|Development Version	|
-|			|		|			|
-|CSS Themes (optional)	|		|			|
-|			|rwf_dark.css	|Development Version	|
-|			|rwf_white.css	|Development Version	|
+|Content:		|		|				|
+|-----------------------|---------------|-------------------------------|
+|JavaScript		|sb-rwf.js	|Development Version		|
+|			|sb-rwf-min.js	|Deployment Version		|
+|			|sb-rwf-pck.js	|Deployment Version (packed)	|
+|			|		|				|
+|CSS 			|		|				|
+|			|sb-rwf.css	|Development Version		|
+|			|		|				|
+|CSS Themes (optional)	|		|				|
+|			|rwf-dark.css	|Development Version		|
+|			|rwf-white.css	|Development Version		|
 
 --
 
