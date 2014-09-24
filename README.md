@@ -79,3 +79,13 @@ $.rwf({
 |menu : submenu		|array		|					|none		|
 |menu : submenu : title	|string		|title of submenu entry			|none		|
 |menu : submenu : href	|string		|path to URI or anker to a class or id	|none		|
+
+--
+
+#### HTML IDs and Classes:
+
+|ID			|Class		|Description				|Default	|
+|-----------------------|---------------|---------------------------------------|---------------|
+|rwf-header		|		|					|		|
+|rwf-site-content	|		|					|		|
+|rwf-footer		|		|					|		|
