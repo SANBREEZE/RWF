@@ -14,7 +14,7 @@ This framework contains JavaScript, CSS, CSS themes files and CSS Web-Font resou
 |JavaScript		|sb-rwf.js	|Development Version		|
 |			|sb-rwf-min.js	|Deployment Version		|
 |			|sb-rwf-pck.js	|Deployment Version (packed)	|
-|-----------------------|---------------|-------------------------------|
+|			|		|				|
 |CSS 			|		|				|
 |			|sb-rwf.css	|Development Version		|
 |			|		|				|
