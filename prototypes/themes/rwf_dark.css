@@ -1,7 +1,7 @@
 /*
  * Framework	: SANBREEZE Resposive Web
- * Version		: 1.0.0
- * Filename		: theme_dark.css
+ * Version	: 1.0.0
+ * Filename	: rwf-dark.css
  * Copyright    : 2014, Mario Briesemeister
  *
  *
@@ -15,11 +15,11 @@
  *	jQuery 1.11.x or higher
  *
  *
- * Notes		:
+ * Notes	:
  *	Do not use jQuery 2.x - we have not test this framework version.
  *
  *
- * Rights		:
+ * Rights	:
  *	The MIT License (MIT)
  *
  *	Copyright (c) 2014, SANBREEZE GmbH
@@ -79,11 +79,11 @@ body {
 //
 //////////////////// */
 
-.rwf-menu, .rwf-submenu, #rwf-footer {
+.rwf-menu, .rwf-submenu {
 	color:#fff;
 	background:rgba(40,40,48,0.96);
-	border-top:1px solid rgba(255,255,255,0.0);
-	border-bottom:1px solid rgba(0,0,0,0.5);
+	border-top:1px solid rgba(255,255,255,0);
+	border-bottom:1px solid rgba(0,0,0,0.4);
 }
 
 .rwf-submenu {
@@ -97,6 +97,8 @@ body {
 
 #rwf-footer {
 	color:#888;
+	background:rgba(40,40,48,0.96);
+	border-top:1px solid rgba(0,0,0,0.4);
 }
 
 #rwf-footer ul>li:hover {
