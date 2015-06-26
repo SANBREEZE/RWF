@@ -161,6 +161,9 @@ body {
 	-webkit-touch-callout:none;
 }
 
+:focus {outline:none;}
+::-moz-focus-inner {border:0;}
+
 h1,
 h2,
 h3,
@@ -301,7 +304,7 @@ sup {
 	margin:0 auto;
 	padding:0px;
 	font-size:27px;
-	line-height:125%;
+	line-height:inherit;
 	cursor:pointer;
 	white-space: nowrap
 }
@@ -341,7 +344,6 @@ sup {
 	overflow:hidden;
 	overflow-x:scroll;
 	-webkit-overflow-scrolling:touch;
-	overflow-scrolling:auto;
 }
 
 .rwf-submenu ul {
@@ -517,7 +519,7 @@ sup {
 .icon {
 	background-repeat:no-repeat;
 	background-position:center;
-	background-size:contains;
+	background-size:contain;
 }
 
 .noimage {

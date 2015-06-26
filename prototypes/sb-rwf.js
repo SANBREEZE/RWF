@@ -147,12 +147,7 @@ function _loading () {
 			if (!a) {
 				tN(b);
 			} else {
-				$.get(a)
-					.done(function() {
-						tN(a);
-					}).fail(function() {
-						tN(b);
-				});
+				$.get(a).done(function() { tN(a); }).fail(function() { tN(b); });
 			}
 		}
 	};
