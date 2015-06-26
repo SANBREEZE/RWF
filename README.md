@@ -99,4 +99,4 @@ $.rwf({
 --
 
 #### Known issues:
-• Theme loading on Firefox doesn't work local
+• Theme loading in Firefox doesn't work local
