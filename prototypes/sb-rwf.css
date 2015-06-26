@@ -347,7 +347,7 @@ sup {
 }
 
 .rwf-submenu ul {
-	width:65536px;
+	width:100%;
 	list-style:none;
 	padding:0;
 	margin:0;
