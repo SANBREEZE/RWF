@@ -94,3 +94,9 @@ $.rwf({
 |rwf-header		|		|					|		|
 |rwf-site-content	|		|					|		|
 |rwf-footer		|		|					|		|
+
+
+--
+
+#### Known issues:
+• Theme loading on Firefox doesn't work local
