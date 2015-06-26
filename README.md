@@ -62,7 +62,10 @@ $.rwf({
 				href : "URI or path"
 			},
 		]
-	}]
+	}],
+	imageSlider : {
+		interval : 7500
+	}
 });
 ```
 
@@ -73,12 +76,14 @@ $.rwf({
 |Option			|Type		|Description				|Default	|
 |-----------------------|---------------|---------------------------------------|---------------|
 |theme			|string		|path to css theme			|dark		|
-|menu			|array		|					|none		|
+|menu			|array		|					|		|
 |menu : title		|string		|title of menu entry			|none		|
 |menu : href		|string		|path to URI or anker to a class or id	|none		|
-|menu : submenu		|array		|					|none		|
+|menu : submenu		|array		|					|		|
 |menu : submenu : title	|string		|title of submenu entry			|none		|
 |menu : submenu : href	|string		|path to URI or anker to a class or id	|none		|
+|imageSlider		|array		|					|		|
+|imageSlider : interval	|number		|milliseconds for slide			|7500		|
 
 --
 
