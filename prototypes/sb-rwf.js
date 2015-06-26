@@ -67,6 +67,7 @@ function _loading () {
 
 (function($){
 	var defs = {
+		theme : "",
 		menu : [
 			{
 				title : "Menu-Title 1",
@@ -78,7 +79,10 @@ function _loading () {
 					}
 				]
 			}
-		]
+		],
+		imageSlider : {
+			interval : 7500
+		}
 	},
 	opt,
 	body		= "body",
@@ -358,7 +362,7 @@ function _loading () {
 						}
 					}
 				}
-			}, 7500);
+			}, opt.imageSlider.interval);
 		});
 	}
 
