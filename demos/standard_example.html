@@ -28,7 +28,54 @@
 		<script type="text/javascript" src="../prototypes/sb-rwf.js"></script>
 		<script>
 			$(document).ready(function(){
-				$().rwf();
+				$.rwf({
+					theme : "../prototypes/themes/rwf-white.css",
+					menu : [
+						{
+							title : "Home",
+							href : "1"
+						},
+						{
+							title : "Store",
+							href : "2"
+						},
+						{
+							title : "Products",
+							href : "3",
+							submenu : [
+								{
+									title : "<i>infinity</i> <sup>GO</sup>",
+									href : "31"
+								},
+								{
+									title : "<i>infinity</i> <sup>AD+</sup>",
+									href : "32"
+								},
+								{
+									title : "<i>infinity</i> <sup>Q</sup>",
+									href : "33"
+								},
+								{
+									title : "<i>infinity</i> <sup>LIVE</sup>",
+									href : "34"
+								},
+								{
+									title : "<i>infinity</i> <sup>ENTERPRISE</sup>",
+									href : "35"
+								},
+							]
+						},
+						{
+							title : "Support",
+							href : "4"
+						},
+						{
+							title : "Contact",
+							href : "5"
+						},
+						
+					]
+				});
 			});
 		</script>
 	</head>
