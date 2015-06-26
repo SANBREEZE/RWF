@@ -15,10 +15,6 @@
  *	jQuery 1.11.x or higher
  *
  *
- * Notes	:
- *	Do not use jQuery 2.x - we have not test this framework version.
- *
- *
  * Rights	:
  *	The MIT License (MIT)
  *

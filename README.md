@@ -25,7 +25,7 @@ This framework contains JavaScript, CSS, CSS themes files and CSS Web-Font resou
 --
 
 #### Requirements  :
-  jQuery 1.11.0 or higher (except 2.x or higher)
+  jQuery 1.11.0 or higher
   
 --
 
