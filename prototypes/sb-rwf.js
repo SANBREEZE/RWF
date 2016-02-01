@@ -127,7 +127,7 @@ function _loading () {
 			var
 				s = document.getElementsByTagName("script"),
 				b,
-				st = "themes/" + fw + "-dark",
+				st = "themes/" + fw + "-white",
 				tN = function (t) {
 					if (document.createStyleSheet) {
 						document.createStyleSheet(t);

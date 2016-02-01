@@ -116,7 +116,7 @@ body {
 	-webkit-overflow-scrolling:touch;
 	overflow-scrolling:auto;
 
-	font:15px/21px 'CC', sans-serif;
+	font:1em/1.2em 'CC', sans-serif;
 
 	-webkit-user-modify:read-only;
 	-o-user-modify:read-only;
@@ -173,31 +173,31 @@ h6 {
 	padding:0 10px 0px 10px;
 	margin:10px 0;
 	text-indent:0;
-	line-height:125%;
+	line-height:1.2em;
 }
 
 h1 {
-	font-size: 200%;
-}
-
-h2 {
-	font-size: 175%;
-}
-
-h3 {
 	font-size: 150%;
 }
 
-h4 {
+h2 {
+	font-size: 133%;
+}
+
+h3 {
 	font-size: 125%;
 }
 
-h5 {
+h4 {
 	font-size: 100%;
 }
 
+h5 {
+	font-size: 84%;
+}
+
 h6 {
-	font-size: 80%;
+	font-size: 75%;
 }
 
 sup {
@@ -281,7 +281,7 @@ sup {
 	padding:0px 0;
 	margin:0 auto;
 	width:100%;
-	max-width:952px;
+	max-width:1024px;
 }
 
 .rwf-space {
@@ -314,7 +314,7 @@ sup {
 	width:100%;
 	height:45px;
 	padding:0px 0;
-	font-size:17px;
+	font-size:1em;
 	text-align:center;
 	line-height:45px;
 	box-sizing:content-box;
@@ -374,6 +374,7 @@ sup {
 .rwf-contentBox {
 	width:100%;
 	margin-bottom:20px;
+
 	clear:both;
 	display:inline-block;
 
@@ -502,7 +503,7 @@ sup {
 	width:16px;
 	height:16px;
 	margin:0 5px;
-	border-radius: 50%;
+	border-radius:50%;
 	box-sizing:border-box;
 	display:inline-block;
 }
@@ -543,3 +544,21 @@ sup {
 	-khtml-transition:all 0.25s ease-in-out;
 	transition:all 0.25s ease-in-out;
 }
+
+
+
+
+/* ////////////////////
+//
+// Responsive
+//
+//////////////////// */
+
+@media (max-width:1023px){
+		.rwf-grid.g33, .rwf-grid.g25 {width:50%;}
+}
+
+@media (max-width:511px){
+		.rwf-grid.g50, .rwf-grid.g33, .rwf-grid.g25 {width:100%;}
+}
+
